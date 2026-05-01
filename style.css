@@ -1,7 +1,13 @@
+/* ///////////////COULEUER */
+:root{
+	--couleurPrincipale: hsla(44, 75%, 56%, 0.82);
+	--couleurSecondaire: rgb(17, 188, 211);
+}
+
 body{
 	font-family: system-ui;
-	background: #f1357A;
-	color: white;
+	background: var(--couleurPrincipale);
+	color: color-mix(in srgb, var(--couleurPrincipale) 30%, white 70%);
 }
 h1{
 	font-size: 8vw;
