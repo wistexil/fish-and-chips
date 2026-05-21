@@ -1,3 +1,6 @@
+* {box-sizing: border-box;}
+img { max-width: 100%;}
+
 /* ///////////////COULEUER */
 :root{
 	--couleurPrincipale: hsla(44, 100%, 50%, 0.82);
@@ -11,4 +14,20 @@ body{
 }
 h1{
 	font-size: 8vw;
+}
+
+/* Mise en page - Colonnes */
+.row { 
+	display: flex;
+	gap: 1rem;
+
+}
+
+.row > * {
+	flex: 1;
+}
+@media(max-width: 800px){
+	.row{
+		flex-direction: column;
+	}
 }
