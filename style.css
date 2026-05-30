@@ -7,6 +7,26 @@ img { max-width: 100%;}
 	--couleurSecondaire: rgb(17, 188, 211);
 }
 
+
+/* FONT SCALE */
+:root {
+  /* Typography Scale */
+
+  --fontSize-XS: 0.50rem; /* 8px */
+  --fontSize-S: 0.71rem; /* 11.32px */
+  --fontSize-M: 1.00rem; /* 16px */
+  --fontSize-L: 1.41rem; /* 22.62px */
+  --fontSize-XL: 2.00rem; /* 32px */
+  --fontSize-XXL: 2.83rem; /* 45.23px */
+  --fontSize-XXXL: 4.00rem; /* 64px */
+  --fontSize-XXXXL: 5.65rem; /* 90.44px */
+  --fontSize-XXXXXL: 8.00rem; /* 128px */
+}
+
+
+
+
+
 body{
 	font-family: system-ui;
 	/* background: var(--couleurPrincipale); */
