@@ -1,10 +1,12 @@
+
 * {box-sizing: border-box;}
 img { max-width: 100%;}
 
 /* ///////////////COULEUER */
 :root{
-	--couleurPrincipale: hsla(44, 100%, 50%, 0.82);
-	--couleurSecondaire: rgb(17, 188, 211);
+	--couleurPrincipale: rgb(135, 164, 80);
+	--couleurSecondaire: rgb(222, 137, 131);
+	--couleurTriadique: rgb(0, 77, 49);
 }
 
 
@@ -27,8 +29,8 @@ img { max-width: 100%;}
 
 
 
-body{
-	font-family: system-ui;
+body{ font-family: "Montserrat", sans-serif;
+	
 	/* background: var(--couleurPrincipale); */
 	/* color: color-mix(in srgb, var(--couleurPrincipale) 30%, white 70%); */
 }
@@ -42,6 +44,8 @@ h1{
 	gap: 1rem;
 
 }
+
+
 
 .row > * {
 	flex: 1;
